@@ -1,0 +1,65 @@
+.btnGroup{
+    padding: 5px;
+    display: block;
+    box-shadow: none;
+}
+.btnGroup:hover{
+    box-shadow: none;
+}
+.typeText{
+    display: block;
+    color: white;
+    background-color: #3D8361;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.output{
+    display: block;
+    color: #3D8361;
+    background-color: white;
+    border: #3D8361 2px solid;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.txt-area{
+    resize: none;
+    margin: 5px;
+}
+.txt-area:focus{
+    border: #3D8361 1px solid;
+    box-shadow: 0px 0px 5px #3D8361;
+}
+.submitBtnss{
+    background-color: #3D8361;
+    border: #3D8361 1px solid;
+    float: right;
+    padding: 5px 20px;
+}
+.submitBtnss:hover{
+    background-color: white;
+    color: #3D8361;
+    border: #3D8361 1px solid;
+}
+.submitBtnss:disabled{
+    background-color: #3D8361;
+}
+.textCount{
+    padding: 5px;
+    font-size: large;
+    color: #3D8361;
+}
+.output-area{
+    margin-top: 57px;
+    padding: 5px;
+    resize: none;
+}
+.output-area:disabled{
+    background-color: white;
+}
+.para-row{
+    margin: 5% 0;
+}

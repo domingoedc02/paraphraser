@@ -1,0 +1,21 @@
+.accountRow{
+    width: 60%;
+    display: block;
+    margin: 5% auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.txt{
+    display: block;
+}
+.profile{
+    display: block;
+    width: 230px;
+    height: 250px;
+    margin: 0 auto;
+}
+.lastRow{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}

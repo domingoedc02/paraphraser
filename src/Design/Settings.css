@@ -1,0 +1,26 @@
+.settingRow{
+    width: 60%;
+    display: block;
+    margin: 5% auto;
+}
+.formSetting{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+.update{
+    display: block;
+    background-color: #3D8361;
+    color: white;
+    border: 1px solid #3D8361;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.update:hover{
+    background-color: white;
+    color: #3D8361;
+    border: #3D8361 1px solid;
+}

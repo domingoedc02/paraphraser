@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=La+Belle+Aurore&display=swap');
+.signupText{
+    text-align: center;
+    color: #3D8361;
+}
+.signupBox{
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 12px 12px 2px 1px #3D8361;
+}
+.loginBtn{
+    display: block;
+    background-color: white;
+    color: #3D8361;
+    border-color: white;
+    margin: 10px auto;
+}
+.loginBtn:hover{
+        text-decoration: underline;
+            background-color: white;
+            color: #3D8361;
+            border-color: white;
+}
+.loginBtn:active{
+    color: red;
+    background-color: #3D8361;
+}
+.registerBtn{
+    display: block;
+    background-color: #3D8361;
+    margin: 0px auto;
+    width: 30%;
+    border-color: #3D8361;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+.registerBtn:hover {
+    background-color: white;
+    color: #3D8361;
+    border-color: #3D8361;
+}
+.temp {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #3D8361;
+}
+
+.temp:hover {
+    color: #3D8361;
+    text-decoration: underline;
+}
+.agreement input[type=checkbox]+label{
+    background-color: white;
+    color: #3D8361;
+    padding: 0px;
+    margin: 0px;
+}
+.retryCodeBtn{
+    display: block;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #3D8361;
+    margin: 20px auto;
+}
+.retryCodeBtn:hover{
+    background-color: transparent;
+        border-color: transparent;
+            box-shadow: none;
+            color: #3D8361;
+    text-decoration: underline;
+}

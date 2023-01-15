@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+.signUpBtn{
+    background-color: white;
+    color: #3D8361;
+    border-color: #3D8361;
+}
+.signUpBtn:hover{
+    background-color: #3D8361;
+    color: white;
+    border-color: white;
+}
+.signUpBtn:active{
+    background-color: #3D8361;
+}
+.userBtn{
+    background-color: aliceblue;
+    color: #3D8361;
+}
+.userBtn:hover{
+    background-color: #3D8361;
+    color: aliceblue;
+    border: aliceblue 1px solid;
+
+}
+.profileNav{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 10px;
+}

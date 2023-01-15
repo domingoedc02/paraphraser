@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=La+Belle+Aurore&display=swap');
+.paraphraseText{
+    display: inline-block;
+    border-left: #3D8361 28px outset;
+    /* border-right: #3D8361 28px solid; */
+    margin-bottom: 5px;
+    border-bottom: #3D8361 5px solid;   
+    border-bottom-style: outset;
+        padding: 5px;
+            padding-bottom: 0px;
+}
+.paraphraseOutput {
+    display: inline-block;
+    margin-top: 35px;
+    /* border-right: #3D8361 28px solid; */
+    margin-bottom: 5px;
+    border-bottom: #3D8361 5px outset;
+    border-left: #3D8361 28px solid;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.inputTextArea{
+    resize: none;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.inputForm{
+    background-color: #3D8361;
+    padding: 10px;
+}
+.goBtn{
+    float: right;
+    margin-top: -30px;
+    background-color: white;
+    color: #3D8361;
+    border: #3D8361 1px solid;
+}
+.goBtn:hover{
+    background-color: #58ba83;
+    color: white;
+    border-color: #58ba83;
+}
+.quote{
+    border: 10px #3D8361 outset;
+    text-indent: 30px;
+}
+.center-align {
+    width: 300px;
+    height: 80px;
+    display: table;
+
+}
+input[type="radio"] {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: #454545;
+    color: white;
+    padding: 5px 10px;  
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+input[type="radio"]:checked+label {
+    background-color: #58ba83;
+}
+
+/* .priceTable{
+    border-top: solid 1px black;
+
+
+    
+} */
+.Button{
+    display: block;
+    background-color: #3D8361;
+    border-color: #3D8361;
+    margin: 0px auto;
+}
+.Button:hover{
+    background-color: white;
+    color: #3D8361;
+    border-color: #3D8361;
+    text-decoration: underline;
+}
+.pricingText{
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    color: #3D8361;
+    margin-left: 80px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+@keyframes showTopText {
+    0% {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(0, 50%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes showBottomText {
+    0% {
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.animated-title {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    height: 90vmin;
+    left: 30%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 90vmin;
+}
+
+.animated-title>div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.animated-title>div div {
+    font-size: 10vmin;
+    padding: 2vmin 0;
+    position: absolute;
+}
+
+.animated-title>div div span {
+    display: block;
+}
+
+.animated-title>div.text-top {
+    border-bottom: 1vmin solid white;
+    top: 0;
+}
+
+.animated-title>div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+
+.animated-title>div.text-top div span:first-child {
+    color: #f5f6f6;
+}
+
+.animated-title>div.text-bottom {
+    bottom: 0;
+}
+
+.animated-title>div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+}
+.registerNow{
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+}
+.registerNow:hover{
+    color: #3D8361;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.jumbotron{
+    background-image: url("../Images/background1.png");
+    background-size: cover;
+    height: 38em;
+    opacity: 80%;
+    position: relative;
+    background-position: center;
+    margin: 0px;
+}
+
+.contactText{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    color: #3D8361;
+}
+.aboutText{
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
+}
+@keyframes highlights {
+    from{
+        display: inline-block;
+        color: white;
+        background-color: white;
+        
+    } to{
+        display: inline-block;
+        color: black;
+        background-color: #58ba83;
+    }
+}
+.content:hover span{
+    animation: highlights 3s ;
+    background-color: #58ba83;
+}
+span::after{
+    background-color: #58ba83;
+}
+.content p{
+    text-align: justify;
+}
+
+.contactForm{
+    
+        background-color: #3D8361;
+        padding: 10px 80px;
+        padding-top: 50px;
+        border-radius: 10px;
+}
+.contactForm input[type="text"]+.form-label{
+    background-color: #3D8361;
+    padding: 0px 10px;
+    color: white;
+    margin-top: 5px;
+}
+.contactForm input[type="text"]{
+    border: 1px white solid;
+}
+.contactForm input[type="email"] {
+    border: 1px white solid;
+}
+.contactForm input[type="email"]+.form-label {
+    background-color: #3D8361;
+    padding: 0px 10px;
+    color: white;
+    margin-top: 5px;
+}
+.contactForm .form-label {
+    background-color: #3D8361;
+    padding: 0px 10px;
+    color: white;
+    margin-top: 5px;
+}
+.contactForm .form-control {
+    border: 1px white solid;
+}
+.contactForm input[type="text"]:focus:not([readonly])+.form-label{
+    color: #f5f6f6;
+}
+.contactForm input[type="email"]:focus:not([readonly])+.form-label {
+    color: #f5f6f6;
+}
+.contactForm .form-control:focus:not([readonly])+.form-label {
+    color: #f5f6f6;
+}
+.contactForm button[type="submit"]{
+    background-color: #f5f6f6;
+    border: #3D8361 1px solid;
+    color: #3D8361;
+}
+.contactForm button[type="submit"]:hover {
+    background-color: #3D8361;
+    border: white 1px solid;
+    color: white;
+}
+.aboutRow{
+    width: 1000px;
+    margin: 50px auto;
+}
+.aboutTitle{
+    color: #3D8361;
+}
+.priceGroup{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    /* background-color: #3D8361; */
+    border-radius: 15px;
+    border: #3D8361 2px solid;
+    box-shadow: 5px 5px 5px #3D8361;
+}
+.homeContainer{
+    margin: 0px;
+}
+.contactImage{
+    display: block;
+    margin: 150px auto;
+    margin-bottom: 0px;
+}
+.form-label{
+    background-color: white;
+    color: #3D8361;
+    margin: 0px;
+    padding: 0px;
+}
+.contactForm2{
+    width: 400px;
+    margin: 0 auto;
+
+}
+.contactBtn{
+    background-color: #3D8361;
+    color: white;
+    border-color: #3D8361;
+    width: 100%;
+}

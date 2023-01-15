@@ -1,0 +1,24 @@
+.md-form input[type='text']:focus:not([readonly]) {
+    box-shadow: 0 1px 0 0 #58ba83 !important;
+    border-bottom: 1px solid #58ba83 !important;
+    color: bla;
+}
+
+.md-form input[type='text']:focus:not([readonly])+label {
+    color: black;
+    background-color: #58ba83;
+}
+.md-form input[type='text']+label {
+
+    background-color: transparent;
+    color: black;
+}
+.md-form input:focus {
+    border-color: red !important;
+    box-shadow: inset 0 0 0 1px red !important;
+    border-bottom: 1px solid red !important;
+}
+
+.md-form label.active {
+    color: red !important;
+}
